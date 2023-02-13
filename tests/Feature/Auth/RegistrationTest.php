@@ -33,6 +33,7 @@ class RegistrationTest extends TestCase
     }
 
     // metodo para validar que los campos sean requeridos
+    
     public function testUsersRequiredData()
     {
         $response = $this->post('/register', [
