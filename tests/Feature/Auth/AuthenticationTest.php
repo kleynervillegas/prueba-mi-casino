@@ -43,6 +43,7 @@ class AuthenticationTest extends TestCase
         $this->assertGuest();
     }
     // metodo para validar que los campos email  password sean requeridos
+    
     public function testLoginRequiredData()
     {
         $response = $this->post('/register', [
